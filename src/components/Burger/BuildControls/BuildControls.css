@@ -1,0 +1,113 @@
+.ControlContainer{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    /* margin: 0 5%; */
+    padding: 10px 0;
+}
+
+.BuildControls{
+    width: 50%;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-flow: column;
+    /* margin-right: 40px; */
+}
+
+.Line{
+    position: absolute;
+    right: 0;
+    top: 110px;
+    width: 35%;
+    border: none;
+    height: 0.5px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(177, 174, 174, 0.616), rgba(190, 187, 187, 0.589));
+}
+
+.Line2{
+    position: absolute;
+    right: 0;
+    top: 540px;
+    width: 35%;
+    border: none;
+    height: 0.5px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(177, 174, 174, 0.616), rgba(190, 187, 187, 0.589));
+
+}
+
+.OrderButton{
+    width: 216px;
+    color: white;
+    background-color: #F0923C;
+    border: none;
+    padding: .375rem .75rem;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 20px 50px;
+    font-size: 17px;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    cursor: pointer;
+}
+
+.OrderButton:hover{
+    color: white;
+    background-color: #f0933cd3;
+    /* border: 1px solid #ffc107; */
+    
+
+}
+
+.OrderButton:disabled{
+    color: white;
+    background-color: #f0933c8e;
+    opacity: .65;
+    cursor: default;
+}
+
+.PriceContainer{
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 60px;
+    position: relative;
+}
+
+h3{
+    margin-right: 28px;
+    color: white;
+}
+
+.TotalPrice{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.StartPrice{
+    color: #989898;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media (max-width: 714px){
+    .BuildControls{
+        width: auto;
+        margin-right: 0;
+        white-space: nowrap;
+    }
+
+    .OrderButton{
+        width: 100%;
+    }
+    .Line, .Line2{
+        display: none;
+    }
+
+}

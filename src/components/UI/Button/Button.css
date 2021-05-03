@@ -1,0 +1,19 @@
+.ButtonStyle{
+    width: 150px;
+    color: white;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 20px 50px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.Cancel {
+     background-color: #F0923C;
+}
+
+.Success{
+    background-color: #42b120;
+}

@@ -1,0 +1,64 @@
+.Toolbar{
+    height: 73px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    box-sizing: border-box;
+    z-index: 90;
+    font-size: 19px;
+    font-weight: 600;
+    color: white;
+    
+}
+
+.Toolbar nav{
+    height: 100%;
+    color: white;
+
+}
+
+.LineNav{
+    position: absolute;
+    top: 65px;
+    width: 100%;
+    border: none;
+    height: 0.5px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(177, 174, 174, 0.315), rgba(190, 187, 187, 0));
+}
+
+.DrawerToggle {
+    width: 40px;
+    height: 100%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.DrawerToggle div {
+    width: 90%;
+    height: 3px;
+    background-color: white;
+}
+
+@media (min-width: 500px){
+    .DrawerToggle {
+        display: none;
+    }
+
+}
+
+
+@media (max-width: 499px){
+    .DesctopOnly{
+        display: none;
+    }
+}

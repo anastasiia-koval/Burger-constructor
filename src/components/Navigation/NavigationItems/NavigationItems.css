@@ -1,0 +1,64 @@
+.NavigationItems{
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    font-weight: 400;
+}
+
+.ItemList{
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ItemList a {
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    padding: 16px 10px;
+    /* margin-top: 10px; */
+}
+
+.ItemList a:hover,.ItemList a:active, .ItemList a.active{
+    color: #F0923C
+}
+
+@media (min-width: 500px){
+    .NavigationItems{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: 100%;
+    }
+    
+    .ItemList{
+        display: flex;
+        /* height: 100%; */
+        align-items: center;
+        flex-direction: row;
+    }
+    
+    .ItemList a {
+        color: white;
+        height: 100%;
+        padding: 22px 10px;
+        border-bottom: 4px solid transparent;
+        box-sizing: border-box;
+        display: block;
+        white-space: nowrap;
+    }
+    
+    .ItemList a:hover,.ItemList a:active, .ItemList a.active{
+        border-bottom: 4px solid #F0923C;
+    }
+}
