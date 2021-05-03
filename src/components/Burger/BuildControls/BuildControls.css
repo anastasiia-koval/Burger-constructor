@@ -79,7 +79,8 @@
 }
 
 h3{
-    margin-right: 28px;
+    margin-right: 48px;
+    /* align-self: center; */
     color: white;
 }
 
@@ -101,13 +102,19 @@ h3{
         width: auto;
         margin-right: 0;
         white-space: nowrap;
+        margin-bottom: 100px;
     }
 
     .OrderButton{
         width: 100%;
+        
     }
     .Line, .Line2{
         display: none;
+    }
+    h3{
+        align-self: center;
+        margin: 0;
     }
 
 }

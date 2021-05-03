@@ -27,11 +27,10 @@
 
 @media (max-width: 714px){
     .Burger{
-        width: 450px;
+        width: 420px;
         height: 400px;
     }
     .ContainerBurger{
         width: auto;
-        margin-left: 10px;
     }
 }

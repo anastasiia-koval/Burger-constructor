@@ -12,3 +12,10 @@
     border-radius: 5px;
 
 }
+
+@media (max-width: 714px){
+    .Modal {
+        width: 90%;
+        margin-bottom: 100px;
+    }
+}

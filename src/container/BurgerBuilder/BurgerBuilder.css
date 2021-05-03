@@ -1,6 +1,6 @@
 .BurgerContainer{
     display: flex;
-    margin: 40px 40px;
+    /* margin: 40px 40px; */
     justify-content: center;
     align-items: center;
     flex-direction: column;
